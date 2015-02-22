@@ -20,40 +20,74 @@ Variables description:
 
 List of variables:  
 
-Variable number | Variable name | Class | Variable number | Variable name | Class
-----------------|---------------|-------|-----------------|---------------|---------
-1 | timeBodyAcceleratormeanX | Number | 35 | timeBodyAcceleratorJerkMagnitudemean | Number
-2 | timeBodyAcceleratormeanY | Number | 36 | timeBodyAcceleratorJerkMagnitudestd | Number
-3 | timeBodyAcceleratormeanZ | Number | 37 | timeBodyGyroscopeMagnitudemean | Number
-4 | timeBodyAcceleratorstdX | Number | 38 | timeBodyGyroscopeMagnitudestd | Number
-Variable number | Variable name | Class | Variable number | Variable name | Class
-5 | timeBodyAcceleratorstdY | Number | 39 | timeBodyGyroscopeJerkMagnitudemean | Number
-6 | timeBodyAcceleratorstdZ | Number | 40 | timeBodyGyroscopeJerkMagnitudestd | Number
-7 | timeGravityAcceleratormeanX | Number | 41 | frequencyBodyAcceleratormeanX | Number
-8 | timeGravityAcceleratormeanY | Number | 42 | frequencyBodyAcceleratormeanY | Number
-9 | timeGravityAcceleratormeanZ | Number | 43 | frequencyBodyAcceleratormeanZ | Number
-10 | timeGravityAcceleratorstdX | Number | 44 | frequencyBodyAcceleratorstdX | Number
-11 | timeGravityAcceleratorstdY | Number | 45 | frequencyBodyAcceleratorstdY | Number
-12 | timeGravityAcceleratorstdZ | Number | 46 | frequencyBodyAcceleratorstdZ | Number
-13 | timeBodyAcceleratorJerkmeanX | Number | 47 | frequencyBodyAcceleratorJerkmeanX | Number
-14 | timeBodyAcceleratorJerkmeanY | Number | 48 | frequencyBodyAcceleratorJerkmeanY | Number
-15 | timeBodyAcceleratorJerkmeanZ | Number | 49 | frequencyBodyAcceleratorJerkmeanZ | Number
-16 | timeBodyAcceleratorJerkstdX | Number | 50 | frequencyBodyAcceleratorJerkstdX | Number
-17 | timeBodyAcceleratorJerkstdY | Number | 51 | frequencyBodyAcceleratorJerkstdY | Number
-18 | timeBodyAcceleratorJerkstdZ | Number | 52 | frequencyBodyAcceleratorJerkstdZ | Number
-19 | timeBodyGyroscopemeanX | Number | 53 | frequencyBodyGyroscopemeanX | Number
-20 | timeBodyGyroscopemeanY | Number | 54 | frequencyBodyGyroscopemeanY | Number
-21 | timeBodyGyroscopemeanZ | Number | 55 | frequencyBodyGyroscopemeanZ | Number
-22 | timeBodyGyroscopestdX | Number | 56 | frequencyBodyGyroscopestdX | Number
-23 | timeBodyGyroscopestdY | Number | 57 | frequencyBodyGyroscopestdY | Number
-24 | timeBodyGyroscopestdZ | Number | 58 | frequencyBodyGyroscopestdZ | Number
-25 | timeBodyGyroscopeJerkmeanX | Number | 59 | frequencyBodyAcceleratorMagnitudemean | Number
-26 | timeBodyGyroscopeJerkmeanY | Number | 60 | frequencyBodyAcceleratorMagnitudestd | Number
-27 | timeBodyGyroscopeJerkmeanZ | Number | 61 | frequencyBodyBodyAcceleratorJerkMagnitudemean | Number
-28 | timeBodyGyroscopeJerkstdX | Number | 62 | frequencyBodyBodyAcceleratorJerkMagnitudestd | Number
-29 | timeBodyGyroscopeJerkstdY | Number | 63 | frequencyBodyBodyGyroscopeMagnitudemean | Number
-30 | timeBodyGyroscopeJerkstdZ | Number | 64 | frequencyBodyBodyGyroscopeMagnitudestd | Number
-31 | timeBodyAcceleratorMagnitudemean | Number | 65 | frequencyBodyBodyGyroscopeJerkMagnitudemean | Number
-32 | timeBodyAcceleratorMagnitudestd | Number | 66 | frequencyBodyBodyGyroscopeJerkMagnitudestd | Number
-33 | timeGravityAcceleratorMagnitudemean | Number | 67 | subject | Factor
-34 | timeGravityAcceleratorMagnitudestd | Number | 68 | activity | Factor
+Variable number | Variable name | Class 
+----------------|---------------|-------
+1 | timeBodyAcceleratormeanX | Number
+2 | timeBodyAcceleratormeanY | Number
+3 | timeBodyAcceleratormeanZ | Number
+4 | timeBodyAcceleratorstdX | Number
+5 | timeBodyAcceleratorstdY | Number
+6 | timeBodyAcceleratorstdZ | Number
+7 | timeGravityAcceleratormeanX | Number
+8 | timeGravityAcceleratormeanY | Number
+9 | timeGravityAcceleratormeanZ | Number
+10 | timeGravityAcceleratorstdX | Number
+11 | timeGravityAcceleratorstdY | Number
+12 | timeGravityAcceleratorstdZ | Number
+13 | timeBodyAcceleratorJerkmeanX | Number
+14 | timeBodyAcceleratorJerkmeanY | Number
+15 | timeBodyAcceleratorJerkmeanZ | Number
+16 | timeBodyAcceleratorJerkstdX | Number
+17 | timeBodyAcceleratorJerkstdY | Number
+18 | timeBodyAcceleratorJerkstdZ | Number
+19 | timeBodyGyroscopemeanX | Number
+20 | timeBodyGyroscopemeanY | Number
+21 | timeBodyGyroscopemeanZ | Number
+22 | timeBodyGyroscopestdX | Number
+23 | timeBodyGyroscopestdY | Number
+24 | timeBodyGyroscopestdZ | Number
+25 | timeBodyGyroscopeJerkmeanX | Number
+26 | timeBodyGyroscopeJerkmeanY | Number
+27 | timeBodyGyroscopeJerkmeanZ | Number
+28 | timeBodyGyroscopeJerkstdX | Number
+29 | timeBodyGyroscopeJerkstdY | Number
+30 | timeBodyGyroscopeJerkstdZ | Number
+31 | timeBodyAcceleratorMagnitudemean | Number
+32 | timeBodyAcceleratorMagnitudestd | Number
+33 | timeGravityAcceleratorMagnitudemean | Number
+34 | timeGravityAcceleratorMagnitudestd | Number
+35 | timeBodyAcceleratorJerkMagnitudemean | Number
+36 | timeBodyAcceleratorJerkMagnitudestd | Number
+37 | timeBodyGyroscopeMagnitudemean | Number
+38 | timeBodyGyroscopeMagnitudestd | Number
+39 | timeBodyGyroscopeJerkMagnitudemean | Number
+40 | timeBodyGyroscopeJerkMagnitudestd | Number
+41 | frequencyBodyAcceleratormeanX | Number
+42 | frequencyBodyAcceleratormeanY | Number
+43 | frequencyBodyAcceleratormeanZ | Number
+44 | frequencyBodyAcceleratorstdX | Number
+45 | frequencyBodyAcceleratorstdY | Number
+46 | frequencyBodyAcceleratorstdZ | Number
+47 | frequencyBodyAcceleratorJerkmeanX | Number
+48 | frequencyBodyAcceleratorJerkmeanY | Number
+49 | frequencyBodyAcceleratorJerkmeanZ | Number
+50 | frequencyBodyAcceleratorJerkstdX | Number
+51 | frequencyBodyAcceleratorJerkstdY | Number
+52 | frequencyBodyAcceleratorJerkstdZ | Number
+53 | frequencyBodyGyroscopemeanX | Number
+54 | frequencyBodyGyroscopemeanY | Number
+55 | frequencyBodyGyroscopemeanZ | Number
+56 | frequencyBodyGyroscopestdX | Number
+57 | frequencyBodyGyroscopestdY | Number
+58 | frequencyBodyGyroscopestdZ | Number
+59 | frequencyBodyAcceleratorMagnitudemean | Number
+60 | frequencyBodyAcceleratorMagnitudestd | Number
+61 | frequencyBodyBodyAcceleratorJerkMagnitudemean | Number
+62 | frequencyBodyBodyAcceleratorJerkMagnitudestd | Number
+63 | frequencyBodyBodyGyroscopeMagnitudemean | Number
+64 | frequencyBodyBodyGyroscopeMagnitudestd | Number
+65 | frequencyBodyBodyGyroscopeJerkMagnitudemean | Number
+66 | frequencyBodyBodyGyroscopeJerkMagnitudestd | Number
+67 | subject | Factor
+68 | activity | Factor
+
